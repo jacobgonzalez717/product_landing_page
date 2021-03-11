@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+section {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.flex-container > div {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 14px;
+}
+
+#account {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(30, 240, 255);
+}
+
+#art {
+  width: 150px;
+  height: 150px;
+}
+
+/* 
+<section id="account">
+<div class="flex-container">
+  <div ><a href="https://niftygateway.com/discover" target="_blank">Buy on Drops</a> <br>
+    <img id = "art" src = "https://miro.medium.com/max/1200/1*FsC9QRebvc68-UdOLuJG_g.jpeg" alt = "">
+  </div>
+  <div><a href="https://niftygateway.com/marketplace" target="_blank">Buy on Marketplace</a>
+    <img id = "art" src = "" alt = "">
+  </div>
+  <div><a href="https://niftygateway.com/discover" target="_blank">Buy on Discover</a>
+    <img id = "art" src = "" alt = "">
+  </div> */
